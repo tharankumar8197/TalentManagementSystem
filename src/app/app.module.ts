@@ -18,6 +18,7 @@ import { AdditionalviewComponent } from './additionalview/additionalview.compone
 import { AdditionaldetailsComponent } from './additionaldetails/additionaldetails.component';
 import { JobseekerhomeComponent } from './jobseekerhome/jobseekerhome.component';
 import { EducationviewComponent } from './educationview/educationview.component';
+import { EdudetailsComponent } from './edudetails/edudetails.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { EducationviewComponent } from './educationview/educationview.component'
     AdditionalviewComponent,
     AdditionaldetailsComponent,
     JobseekerhomeComponent,
-    EducationviewComponent
+    EducationviewComponent,
+    EdudetailsComponent
   ],
   imports: [
     BrowserModule,

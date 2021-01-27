@@ -1,0 +1,59 @@
+body{
+	background:rgb(237, 237, 237);
+}
+
+.flab{
+    margin-left:5.5rem;
+}
+.flab2{
+    margin-left:9rem;
+}
+.flab3{
+  margin-left: 5rem
+}
+form{
+	margin: 10%;
+	padding: 50px;
+	
+	border: black solid 1px;
+	background: white
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 10px;
+  margin-bottom:15px;
+
+}
+
+input{
+	padding-right: 5px;
+	padding-left: 105px;
+	content: center;
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+button{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  
+	background:#A012E7;
+	border: solid 5px #A012E7;
+	padding: 5px;
+	border-radius: 5px; 
+	color: white;
+	margin-top:30px;
+	
+
+}

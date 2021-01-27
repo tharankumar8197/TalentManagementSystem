@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-additionalview',
@@ -6,8 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./additionalview.component.css']
 })
 export class AdditionalviewComponent implements OnInit {
+  bubble= true;
 
-  constructor() { }
+
+  constructor(private router: Router) { }
+  navigatetoEdit(){
+    this.bubble = false;
+    this.router.navigate(['additionalEdit']);
+  }
 
   ngOnInit(): void {
   }

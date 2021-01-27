@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-certificate',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CertificateComponent implements OnInit {
 
+
   constructor() { }
+
+  
+
 
   ngOnInit(): void {
   }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-viewproects',
@@ -6,8 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./viewproects.component.css']
 })
 export class ViewproectsComponent implements OnInit {
+  bubble= true;
 
-  constructor() { }
+
+  constructor(private router: Router) { }
+  navigatetoEdit(){
+    this.bubble = false;
+    this.router.navigate(['projectEdit']);
+  }
+
 
   ngOnInit(): void {
   }

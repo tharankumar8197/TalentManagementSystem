@@ -1,3 +1,4 @@
+<div *ngIf="bubble; else loggedout">
 <h2>Education details</h2>
 <hr />
 <div class="EducationDetails">
@@ -100,9 +101,16 @@
       <span class="flab3">Delhi public school</span>
     </div>
   </div>
+  <button (click)="navigatetoEdit()"  type="submit" class="btn btn-primary">Edit</button>   
+
 
 
 </div>
+</div>
+<ng-template #loggedout>
+  <app-edudetails></app-edudetails>
+</ng-template>
+    
 
 
 
