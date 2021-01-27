@@ -6,7 +6,7 @@
         <div class="container">
           <div class="row d-flex align-items-center">
             <div class="col-md-6 d-md-block d-none">
-              <p>Profile Management</p>
+              <h1>Talencia</h1>
             </div>
             <div class="col-md-6">
               <div class="d-flex justify-content-md-end justify-content-between">
@@ -56,40 +56,9 @@
         <mat-tab label="Personal Info">
 <div>
   <div class="container">
-	<div class="row">
-	</div>
-    <div class="row">
-        <fieldset class="for-panel">
-          <legend>Contact Info</legend>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form-horizontal">               
-                  <label class="col-md-4 control-label">Contact Name:</label>
-                  <p class="form-control-static">Srinivas Buddha</p>               
-                  <label class="col-md-4 control-label">Phone Number: </label>
-                  <p class="form-control-static">988-630-6659</p>               
-                    <label class="col-md-4 control-label">Contact Type: </label>
-                    <p class="form-control-static">Home</p>                           
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="form-horizontal">               
-                  <label class="col-xs-4 control-label">Address: </label>
-                  <p class="form-control-static">248, Markway Ave, Moorpark Dr</p>             
-                  <label class="col-xs-4 control-label">City:</label>
-                  <p class="form-control-static">Simmi Valley</p>              
-                  <label class="col-xs-4 control-label">State:</label>
-                  <p class="form-control-static">CA</p>             
-                  <label class="col-xs-4 control-label">Country:</label>
-                  <p class="form-control-static">USA</p>            
-                  <label class="col-xs-4 control-label">Zip Code:</label>
-                  <p class="form-control-static">92432</p>               
-              </div>
-            </div>
-          </div>
-        </fieldset>
-    </div>
-</div>
+    <br>
+	  <app-personal-info></app-personal-info>
+	 </div>
 </div>       
 
 </mat-tab>
@@ -105,7 +74,22 @@
           <app-certificate></app-certificate>
         </mat-tab>
         <mat-tab label="Jobs">Content 4</mat-tab>
-        <mat-tab label="Career Overview">Content 5</mat-tab>
+        <mat-tab label="Talent Overview">
+          <div>
+            <div class="container">
+              <br>
+              <app-talent-overview></app-talent-overview>
+            </div>
+          </div>
+        </mat-tab>
+        <mat-tab label="Career Overview">
+          <div>
+            <div class="container">
+              <br>
+              <app-career-overview></app-career-overview>
+            </div>
+          </div>
+        </mat-tab>
         <mat-tab label="Additional Details">
 <div class="container" id="top" >
   
@@ -158,7 +142,6 @@
 
 
       </mat-tab-group>
-      
       
       
       

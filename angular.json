@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "talentmanagment"
+  "defaultProject": "talentmanagment",
+  "cli": {
+    "analytics": false
+  }
 }
