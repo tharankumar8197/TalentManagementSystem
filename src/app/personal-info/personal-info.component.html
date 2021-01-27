@@ -97,5 +97,11 @@
                                               
                                             </div>
                                           </div>
-                                          <button type="submit" class="btn btn-primary">Edit</button>   
-</div>
+
+                                          <button (click)="navigatetoEdit()"  type="submit" class="btn btn-primary">Edit</button>   
+                                           
+                                          <div *ngIf="bubble">
+                                            <app-edit></app-edit>
+                                          </div>
+                                              
+                                         </div>
