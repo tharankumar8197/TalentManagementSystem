@@ -12,6 +12,12 @@ import { CareerOverviewComponent } from './career-overview/career-overview.compo
 import { TalentOverviewComponent } from './talent-overview/talent-overview.component';
 import { GoalsComponent } from './talent-overview/goals/goals.component';
 import { EditComponent } from './personal-info/edit/edit.component';
+import { ViewcertifiComponent } from './viewcertifi/viewcertifi.component';
+import { ViewproectsComponent } from './viewproects/viewproects.component';
+import { AdditionalviewComponent } from './additionalview/additionalview.component';
+import { AdditionaldetailsComponent } from './additionaldetails/additionaldetails.component';
+import { JobseekerhomeComponent } from './jobseekerhome/jobseekerhome.component';
+import { EducationviewComponent } from './educationview/educationview.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +28,13 @@ import { EditComponent } from './personal-info/edit/edit.component';
     CareerOverviewComponent,
     TalentOverviewComponent,
     GoalsComponent,
-    EditComponent
+    EditComponent,
+    ViewcertifiComponent,
+    ViewproectsComponent,
+    AdditionalviewComponent,
+    AdditionaldetailsComponent,
+    JobseekerhomeComponent,
+    EducationviewComponent
   ],
   imports: [
     BrowserModule,
