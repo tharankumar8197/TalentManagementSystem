@@ -7,11 +7,11 @@ import { Router } from '@angular/router';
 })
 export class PersonalInfoComponent implements OnInit {
   
-   bubble= false;
+   bubble= true;
   constructor( private router: Router) { }
 
   navigatetoEdit(){
-    this.bubble = true;
+    this.bubble = false;
     this.router.navigate(['Edit']);
   }
 

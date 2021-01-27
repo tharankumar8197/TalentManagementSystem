@@ -1,4 +1,5 @@
 <div>
+    <div *ngIf="bubble; else loggedout">
     <h1>Personal Details</h1>
     <hr>
     <div class="row">
@@ -97,10 +98,15 @@
                                               
                                             </div>
                                           </div>
+    </div>
+    <br>
+    <br>
                                           <button (click)="navigatetoEdit()"  type="submit" class="btn btn-primary">Edit</button>   
                                            
-                                          <div *ngIf="bubble">
+                                          <ng-template #loggedout>
                                             <app-edit></app-edit>
-                                          </div>
+                                          </ng-template>
                                               
                                          </div>
+            
+                                       
