@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-career-overview',
@@ -7,7 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CareerOverviewComponent implements OnInit {
 
-  constructor() { }
+  bubble= true;
+  constructor(private router: Router) { }
+
+  navigatetoEdit(){
+    this.bubble = false;
+    this.router.navigate(['EditCareer']);
+  }
+
 
   ngOnInit(): void {
   }

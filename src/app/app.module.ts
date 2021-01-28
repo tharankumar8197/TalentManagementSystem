@@ -19,6 +19,7 @@ import { AdditionaldetailsComponent } from './additionaldetails/additionaldetail
 import { JobseekerhomeComponent } from './jobseekerhome/jobseekerhome.component';
 import { EducationviewComponent } from './educationview/educationview.component';
 import { EdudetailsComponent } from './edudetails/edudetails.component';
+import { EditCareerComponent } from './career-overview/edit-career/edit-career.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { EdudetailsComponent } from './edudetails/edudetails.component';
     AdditionaldetailsComponent,
     JobseekerhomeComponent,
     EducationviewComponent,
-    EdudetailsComponent
+    EdudetailsComponent,
+    EditCareerComponent
   ],
   imports: [
     BrowserModule,

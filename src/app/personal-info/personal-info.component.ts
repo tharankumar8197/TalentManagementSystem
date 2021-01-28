@@ -12,7 +12,7 @@ export class PersonalInfoComponent implements OnInit {
 
   navigatetoEdit(){
     this.bubble = false;
-    this.router.navigate(['Edit']);
+    this.router.navigate(['EditPersonal']);
   }
 
   ngOnInit(): void {
